@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khushbu Lalchandani | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">KL</a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn">🌙</button>
+        <button id="menuToggle" class="menu-btn">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Hi, I’m</p>
+        <h1>Khushbu Lalchandani</h1>
+        <h2>MS in Data Science Student @ Boston University</h2>
+        <p class="hero-text">
+          I’m interested in AI/ML, data engineering, and healthcare analytics.
+          I enjoy building practical systems that turn messy real-world data into useful insights.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn">View Projects</a>
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <span>01</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <p>
+          I am currently pursuing my MS in Data Science at Boston University.
+          My work focuses on machine learning, data engineering, real-time data systems,
+          and applied AI.
+        </p>
+
+        <p>
+          I enjoy working on projects that combine technical depth with real-world impact,
+          especially in healthcare, analytics, and intelligent decision-support systems.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <span>02</span>
+        <h2>Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-card">
+          <h3>Business Analyst</h3>
+          <p class="company">ICICI Lombard</p>
+          <p>
+            Worked on business analysis, data-driven decision making, reporting,
+            and problem-solving across insurance-related workflows.
+          </p>
+        </div>
+
+        <div class="timeline-card">
+          <h3>Intern</h3>
+          <p class="company">ICICI Lombard</p>
+          <p>
+            Supported analytical and operational projects, gaining experience in
+            business processes, stakeholder communication, and data analysis.
+          </p>
+        </div>
+
+        <div class="timeline-card">
+          <h3>Graduate Student Projects</h3>
+          <p class="company">Boston University</p>
+          <p>
+            Built machine learning models, scalable ETL pipelines, Kafka streaming systems,
+            Spark analytics workflows, and applied AI prototypes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <span>03</span>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Epidemic Engine</h3>
+          <p>
+            Real-time public health event pipeline using Kafka, Tekton, Spark,
+            and TimescaleDB for analytics and alerting.
+          </p>
+          <div class="tags">
+            <span>Kafka</span>
+            <span>Spark</span>
+            <span>TimescaleDB</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Health Events ETL Pipeline</h3>
+          <p>
+            Built an end-to-end ETL pipeline with PostgreSQL landing,
+            transformations, quality checks, and MySQL serving.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>PostgreSQL</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Kafka Real-Time Event Pipeline</h3>
+          <p>
+            Designed producer and consumer workflows for streaming health event data
+            with validation and transformation logic.
+          </p>
+          <div class="tags">
+            <span>Kafka</span>
+            <span>Docker</span>
+            <span>OpenShift</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Butterfly Image Classification</h3>
+          <p>
+            Deep learning image classification project using transfer learning,
+            augmentation, and PyTorch-based model training.
+          </p>
+          <div class="tags">
+            <span>PyTorch</span>
+            <span>CNN</span>
+            <span>Deep Learning</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>BridgeCare</h3>
+          <p>
+            AI-powered doctor visit translator and patient decision-support prototype
+            designed to simplify complex medical information.
+          </p>
+          <div class="tags">
+            <span>GenAI</span>
+            <span>Healthcare</span>
+            <span>UX</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>StatsBomb360 Soccer Analytics</h3>
+          <p>
+            Built a possession-to-shot modeling workflow to identify factors that make
+            a possession more likely to result in a shot.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>ML</span>
+            <span>Sports Analytics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <span>04</span>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>Machine Learning</span>
+        <span>Deep Learning</span>
+        <span>PyTorch</span>
+        <span>Spark</span>
+        <span>Kafka</span>
+        <span>PostgreSQL</span>
+        <span>MySQL</span>
+        <span>Docker</span>
+        <span>OpenShift</span>
+        <span>GitHub</span>
+        <span>Data Engineering</span>
+        <span>Healthcare Analytics</span>
+        <span>AI/ML</span>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-heading">
+        <span>05</span>
+        <h2>Education</h2>
+      </div>
+
+      <div class="education-card">
+        <h3>Boston University</h3>
+        <p>MS in Data Science</p>
+        <p class="muted">Duan Family Center for Computing & Data Science</p>
+      </div>
+
+      <div class="education-card">
+        <h3>Your Undergraduate University</h3>
+        <p>Bachelor’s Degree</p>
+        <p class="muted">Add your major and graduation year here</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-heading">
+        <span>06</span>
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-box">
+        <p>
+          I’m always open to connecting about data science, AI/ML, healthcare analytics,
+          research, and interesting project ideas.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com">Email</a>
+          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+          <a href="https://github.com/khush11" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Khushbu Lalchandani. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
